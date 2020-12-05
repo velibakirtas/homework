@@ -20,18 +20,17 @@ def choose_lesson():
             counter += 1
         elif check_continue == 'n':
             break
-    print(lessons)            
-    return lessons  
-
-
+        print(lessons)
+        return lessons
+                      
+    
 def check_missing_lesson(): 
     how_course = choose_lesson()
     if len(how_course) < 3:
         return 'You failed in class'   
     else:
         if len(how_course) >= 3:
-            return 'course selection is successful'
+            return 'course selection is successful'    
 
-checked= check_missing_lesson()
-print(checked)    
+   
                 
