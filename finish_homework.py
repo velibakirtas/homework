@@ -60,6 +60,7 @@ if choose_course in lessons:
          'final': rn.randint(1,100)
              }
          }
+    # notları kendim belirlemek yerine rastgele berlirlenmesini istedim
     show = input("you can use the 'show' command to see the results: ")
     if show == 'show':
         print(points)
